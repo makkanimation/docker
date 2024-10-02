@@ -13,6 +13,8 @@ docker ps
 ```bash
 # Afrer creating dockerfile (tutorial mengtion under dockerfile.md), start docker
 docker run -p 3000:3000 imageid
+# To run multiple port
+docker run -p <host_port1>:<container_port1> -p <host_port2>:<container_port2>
 # to stop docker
 docker ps
 docker stop NAMES # showing under docker ps command
