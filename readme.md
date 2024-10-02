@@ -20,4 +20,10 @@ docker run -p <host_port1>:<container_port1> -p <host_port2>:<container_port2>
 # to stop docker
 docker ps
 docker stop NAMES # showing under docker ps command
+
+docker ps -a # to see all docker
+# to remove all unwanted docker either use
+docker rm imageid
+# or run docker with --rm
+docker run -d -p --rm 3000:3000 imageid
 ```
