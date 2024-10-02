@@ -1,5 +1,5 @@
 ![image](https://github.com/user-attachments/assets/c18cc49b-eb72-41a9-95f7-9623f0139fac)
-
+```bash
 # Which base model we need to use either node
 FROM node:20
 # Create directory inside docker
@@ -13,6 +13,10 @@ RUN npm install
 EXPOSE 3000
 # after creating image run command install terminal
 CMD ["npm","start"]
+``` 
 ---------------------
-## After saving docker file, now we will create docker image of the same under command prompt (Terminal)
-docker build . ### docker build should under folder where dockerfile placed
+After saving docker file, now we will create docker image of the same under command prompt (Terminal)
+```bash
+# docker build should under folder where dockerfile placed
+docker build .
+``` 
