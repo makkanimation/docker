@@ -13,3 +13,6 @@ RUN npm install
 EXPOSE 3000
 # after creating image run command install terminal
 CMD ["npm","start"]
+---------------------
+## After saving docker file, now we will create docker image of the same under command prompt (Terminal)
+docker build . ### docker build should under folder where dockerfile placed
