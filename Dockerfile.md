@@ -19,4 +19,6 @@ After saving docker file, now we will create docker image of the same under comm
 ```bash
 # docker build should under folder where dockerfile placed
 docker build .
+# to check doecker image run
+docker image ls
 ``` 
