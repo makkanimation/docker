@@ -12,7 +12,7 @@ docker ps
 
 ```bash
 # Afrer creating dockerfile (tutorial mengtion under dockerfile.md), start docker
-docker run imageid
+docker run -p 3000:3000 imageid
 # to stop docker
 docker ps
 docker stop NAMES # showing under docker ps command
