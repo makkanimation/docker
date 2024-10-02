@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/09cba3a1-534f-429d-813b-f31796a9367d)
+![image](https://github.com/user-attachments/assets/c18cc49b-eb72-41a9-95f7-9623f0139fac)
 
 # Which base model we need to use either node
 FROM node:20
