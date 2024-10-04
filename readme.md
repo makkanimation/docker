@@ -21,7 +21,7 @@ docker ps -a # to see all docker
 # to remove all unwanted docker either use
 docker rm imageid
 # or run docker with --rm
-docker run -d -p --rm 3000:3000 imageid
+docker run -d --rm -p 3000:3000 imageid
 # to put docker name
 docker run -d -p --rm --name "mywebapp" 3000:3000 imageid
 # to stop docker
@@ -30,4 +30,10 @@ docker stop NAMES # showing under docker ps command
 # to remove docker image with version
 docker rmi repositoryname:version
 ```
-
+# Update docker
+```bash
+#Simply build with new version
+docker build mywebapp:02 .
+#then run with reponame:version
+docker run -d --rm --name "mywebapp" -p 3000:3000 reponame:version
+```
