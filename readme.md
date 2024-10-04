@@ -27,6 +27,7 @@ docker run -d -p --rm --name "mywebapp" 3000:3000 imageid
 # to stop docker
 docker ps
 docker stop NAMES # showing under docker ps command
-
-
+# to remove docker image with version
+docker rmi repositoryname:version
 ```
+
