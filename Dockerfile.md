@@ -18,7 +18,7 @@ CMD ["npm","start"]
 After saving docker file, now we will create docker image of the same under command prompt (Terminal)
 ```bash
 # docker build should under folder where dockerfile placed
-docker build .
+docker build -t mywebapp:01 . # mywebapp is Repository name, 01 is Tag/version number
 # to check doecker image run
 docker image ls
 ``` 
