@@ -37,3 +37,12 @@ docker build mywebapp:02 .
 #then run with reponame:version
 docker run -d --rm --name "mywebapp" -p 3000:3000 reponame:version
 ```
+# Push image to docker hub
+```bash
+# first login
+docker login
+# create image same mention under Docker hub commands
+docker build -t app-created-in-hub:version .
+# now run push command to display in hub
+docker push app-created-in-hub:version
+```
