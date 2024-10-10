@@ -1,5 +1,6 @@
 # Volume
 ```bash
+docker build .
 # it stands for iteration
 # -v for volume
 docker run -it --rm -v docker_volume_name:/docker_workdir/ imageid
