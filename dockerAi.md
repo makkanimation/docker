@@ -1,3 +1,5 @@
+https://chatgpt.com/share/6880a254-5af8-8009-aed3-4d94e269fb38
+
 Here's a **step-by-step guide** to install Docker and set up a Python environment with Flask, FastAPI, and Jupyter Notebook on **Ubuntu** for AI testing:
 
 ---
