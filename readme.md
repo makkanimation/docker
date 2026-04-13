@@ -1,5 +1,12 @@
 docker -v
-
+# Stop Docker, the  run below command to run again
+docker compose down
+# Run Project
+docker-compose up -d --build
+# Enter container
+docker exec -it laravel_apache bash
+# Restart Composer 
+docker compose restart
 # start docker service
 systemctl start docker.service
 # status of docker runing or not
