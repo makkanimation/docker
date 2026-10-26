@@ -22,6 +22,14 @@ Original suggested compatibility alternative:
 
 The original notes identified `config/database.php` lines 60, 80, 99, 119, 139 and 158; verify line numbers against the actual version of your project before editing.
 
+# Fix Git safe directory
+## Run this inside your PHP 8.5 Docker container:
+```bash
+git config --global --add safe.directory /var/www/html/hirose85
+git status
+git branch -a
+git remote -v
+```
 Clear cached config:
 
 ```bash
